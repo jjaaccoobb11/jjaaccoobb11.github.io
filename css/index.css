@@ -1,8 +1,8 @@
 
-
+/* Colors used: Dark classic blue (#0A1828), turquoise (#178582), gold (#BFA181) */
 
 body{
-    background-color: #44444283;
+    background-color: #0A1828;
 }
 .slider img{
     width: 60em;
@@ -16,20 +16,25 @@ body{
 
 .threePics img{
     width: 20em;
-    height: 15em;
+    height: 13em;
+    border-radius: 1em;
 }
 .threePics img:hover{
     transition: 0.1s ease-in-out;
     scale: 1.2;
 }
 
+.threePics a {
+    color: #f5c189;
+}
 
 .slideshow-container {
     width: 100%;
     overflow: hidden;
     max-width: 800px;
     position: relative;
-    margin: auto;
+    margin: 1em;
+    border-radius: 1em;
 }
 
 .slide {
@@ -59,6 +64,10 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #178582;
+    color: #f5c189;
+
+    border-radius: 2em;
 }
 
 .title h1{
