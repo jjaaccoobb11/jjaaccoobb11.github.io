@@ -1,0 +1,72 @@
+body{
+    background-color: #f7e1b9;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1{
+    font-size: xxx-large;
+    margin: 1em;
+}
+header p{
+    font-size: x-large;
+}
+main{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#lejonEating{
+    height: 400px;
+}
+#lejonEating2{
+    height: 400px;
+}
+.eatingLions{
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+@media(max-width: 1392px){
+    .eatingLions{
+        display: none;
+    }
+}
+
+@media(max-width: 420px){
+    header h1{
+        font-size: x-large;
+    }
+    header p{
+        font-size: medium;
+    }
+    .text{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+@media(max-width: 1024px){
+    header h1{
+        font-size: xx-large;
+    }
+    header p{
+        font-size: x-large;
+    }
+    .text{
+        font-size: x-large;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+}
