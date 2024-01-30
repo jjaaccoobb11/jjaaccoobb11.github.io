@@ -1,5 +1,31 @@
+
+/* Bakgrund (#0A1828), meny (#178582), text (#BFA181) */
+
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #178582;
+    color: #f5c189;
+    justify-content: space-around;
+    border-radius: 2em;
+}
+
+.title h1{
+    font-size: xx-large;
+}
+
+.title p{
+    font-size: x-large;
+}
+
+.title img{
+    width: 150px;
+    height: 150px;
+}
+
 body{
-    background-color: #f7e1b9;
+    background-color: #0A1828;
 }
 header{
     display: flex;
@@ -33,6 +59,7 @@ main{
 
 .text{
     display: flex;
+    color: #BFA181;
     align-items: center;
     margin-left: 10em;
     margin-right: 10em;
